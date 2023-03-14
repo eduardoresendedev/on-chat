@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b0b2dbf4c4.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js" integrity="sha512-xbQU0+iHqhVt7VIXi6vBJKPh3IQBF5B84sSHdjKiSccyX/1ZI7Vnkt2/8y8uruj63/DVmCxfUNohPNruthTEQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 <body>
     <header>
@@ -44,14 +47,15 @@
             <div class="chat-header">
                 <h3>Fulano de tal</h3>
             </div>
-            <div class="chat-body">
+            <div class="chat-body">     
 
             </div>
             <div class="chat-footer">
                 <input type="text" id="message-input" placeholder="Digite sua mensagem aqui...">
-                <button><i class="fa-solid fa-circle-arrow-right"></i></button>
+                <button class="send-message-btn"><i type="submit" class="fa-solid fa-circle-arrow-right"></i></button>
             </div>
         </div>
     </main>
+    <script src="script/index.js"></script>
 </body>
 </html>
